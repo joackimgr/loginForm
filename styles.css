@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Norse';
+    src: url(./Norse-Bold.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left {
+    background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex: 1;
+    color: white;
+}
+
+.odinLogo {
+    width: 120px;
+    height: 150px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.divLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 250px auto;
+    font-size: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.divLogo p {
+    font-family: 'Norse', 'Roboto', sans-serif;
+    margin: 50px 0;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 3;
+    height: 100vh;
+}
+
+.moto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 27px;
+    font-weight: 500;
+    background-color: rgb(230, 228, 228);
+    flex: 1;
+    width: 100%;
+}
+
+.moto p {
+    width: 70%;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    margin: auto 70px;
+}
+
+.form p {
+    font-size: 27px;
+}
+
+.createAcc {
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
