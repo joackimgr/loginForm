@@ -113,6 +113,14 @@ form input {
     border-style: solid;
     border-radius: 3px;
     width: 300px;
+    transition: box-shadow 0.2s, border-color 0.2s;
+
+}
+
+form input:focus {
+    border-color: rgba(0, 38, 255, 0.719);
+    box-shadow: 0px 2px 3px 0px gray;
+    outline: none;
 }
 
 .formField {
@@ -152,4 +160,8 @@ form input {
     color: #596D48;
     font-weight: 700;
     cursor: pointer;
+}
+
+#pass:invalid {
+    border-color: red;
 }
